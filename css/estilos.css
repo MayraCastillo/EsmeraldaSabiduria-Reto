@@ -1,0 +1,71 @@
+body
+{
+  font-family: "Palatino", sans-serif;
+  margin: 0;
+  background-color: #009D71 ;
+  text-align: center;
+}
+
+.banner
+{
+  height: 300px;
+  background: -webkit-linear-gradient(#03E7FC, #000582);
+  margin-bottom: 20px;
+  padding-top: 100px;
+}
+
+.banner-titulo
+{
+  color: #FFF;
+  font-size: 300%;
+}
+
+.banner-texto
+{
+  color: #FFF;
+  font-size: 200%;
+}
+
+.contenido
+{
+  margin: auto;
+  width: 70%;
+  height: 100%;
+  background-color: #FFF;
+  padding: 50px;
+  text-align: Justify;
+}
+	
+.imagen
+{
+  width: 400px;
+  background-color: #31B404;
+  padding: 10px;
+  margin-bottom: 50px;
+}
+
+#fotoUribe1, #fotoUribe2
+{
+  width: 400px;
+  /*margin:10px auto;
+  display:block;*/
+}
+
+
+@media (min-width: 850px)
+{
+  .imagen
+  {
+    background-color: #0040FF;
+    margin: auto;
+    margin-bottom: 50px;
+  }
+
+  .contenido
+  {
+    text-align: center;
+  }
+
+}
+
+

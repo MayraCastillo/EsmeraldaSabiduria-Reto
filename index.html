@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset=utf-8 />
+    <title>Esmeralda de la Sabiduria</title>
+    <link rel="stylesheet" type="text/css" href="css/estilos.css">
+    <script src="js/animaciones.js"></script>
+    <audio id="sonido" src="sounds/sound.mp3"></audio> 
+  </head>
+  
+  <body>
+    <div class="banner">
+      <h1 class="banner-titulo">Reto de las gemas</h1>
+      <h2 class="banner-texto">Esmeralda de la Sabiduría</h2>
+    </div>
+
+    <div class="contenido" id="contenido">
+      <h3>Descripción del primer reto.</h3>
+      <p class="texto">
+         Haz que cuando se pase el mouse por encima de la foto de un político aparezca maquillado y con labios pintados.
+      </p>
+
+      <div class="imagen"><img id="fotoUribe1" src="img/uribeNormal.jpg" alt="Imagen de Alvaro Uribe" onmouseout="desMaquillar();" onmouseover="maquillar();"/>
+      </div>
+
+
+      <h3>Descripción del segundo reto.</h3>
+      <p class="texto">
+         Haz que cuando se pase el mouse por encima de la foto de un político aparezca la foto de la llorona y se reproduzca un sonido de grito.
+      </p>
+
+      <div class="imagen"><img id="fotoUribe2" src="img/uribeNormal.jpg" alt="Imagen de Alvaro Uribe" onmouseover="reproducir();" onmouseout="detener();"/>
+      </div>
+
+    </div>
+  </body>
+</html>
